@@ -17,8 +17,8 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  spec.add_runtime_dependency 'grape', '>= 0.10', '< 1.1'
-  spec.add_runtime_dependency 'doorkeeper', '>= 1.4', '< 4.3'
+  spec.add_runtime_dependency 'grape', '>= 0.10', '< 1.2'
+  spec.add_runtime_dependency 'doorkeeper', '>= 1.4', '< 6.0'
 
   spec.add_development_dependency 'railties'
   spec.add_development_dependency 'bundler', '~> 1.7'
@@ -28,6 +28,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'generator_spec', '~> 0.9.0'
   spec.add_development_dependency 'sqlite3'
   spec.add_development_dependency 'database_cleaner', '~> 1.3.0'
-  spec.add_development_dependency 'rubocop', '0.41.1'
-  spec.add_development_dependency 'yard', '~> 0.8.7'
+  spec.add_development_dependency 'rubocop', '0.58.2'
+  spec.add_development_dependency 'yard', '~> 0.9.16'
 end
